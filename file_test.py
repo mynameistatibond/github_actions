@@ -1,5 +1,6 @@
 """Tiny unit tests just to demo GitHub Actions with pytest."""
 
+
 def test_calc_addition():
     assert 2 + 4 == 6
 
@@ -18,4 +19,3 @@ def test_hello():
     """Return value equals 'hello'."""
     output = "hello"
     assert output == "hello"
-
